@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#d35400"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <!-- Plate -->
+  <ellipse cx="32" cy="36" rx="16" ry="6" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- Fork -->
+  <g fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round">
+    <line x1="22" y1="18" x2="22" y2="30"/>
+    <line x1="19" y1="18" x2="19" y2="24"/>
+    <line x1="25" y1="18" x2="25" y2="24"/>
+    <line x1="19" y1="24" x2="25" y2="24"/>
+  </g>
+  <!-- Spoon -->
+  <g fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round">
+    <line x1="42" y1="24" x2="42" y2="30"/>
+    <ellipse cx="42" cy="20" rx="3.5" ry="4.5" fill="#fff" opacity="0.3" stroke="#fff"/>
+  </g>
+  <!-- Steam -->
+  <g fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" opacity="0.7">
+    <path d="M28 28 Q27 24 29 22"/>
+    <path d="M32 26 Q31 22 33 20"/>
+    <path d="M36 28 Q35 24 37 22"/>
+  </g>
+</svg>
